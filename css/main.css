@@ -1,3 +1,10 @@
+html{
+font-family: Georgia;
+font-weight: normal;
+background-color: white;
+font-size: 1rem;
+}
+
 header{
   background-color: #ffe524;
   text-align: center;
@@ -23,4 +30,81 @@ nav li{
 nav a{
   text-decoration: none;
   color: white;
+}
+
+ul{
+list-style-type: none;
+line-height: 1.5;
+text-align: center;
+padding: 0;
+margin: 0;
+}
+
+li:hover{
+
+background-color:#b32f52;
+}
+a{
+color: white;
+}
+
+a:hover{
+background-color: #b32f52;
+display: inline-block;
+
+}
+
+h2{
+border-top: 4px solid #ffe524;
+}
+
+
+blockquote{
+color: #b2a652;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+.quote{
+font-size: 6rem;
+color: #b2a652;
+text-align: center;
+padding-top: .5rem;
+
+}
+
+figure{
+border: 3px solid #b2a652;
+border-radius: 10px;
+margin: 0;
+padding: 1em 2em .5em 3em;
+background-color: #fffce0;
+}
+
+figcaption{
+text-align: center;
+}
+
+footer{
+color: #b2a652;
+text-align: center;
+}
+
+dt{
+font-weight: bold;
+}
+
+dd{
+padding: .3em 0em .3em 0em;
+margin: 0;
+}
+
+img{
+width: 100%;
+}
+
+aside{
+padding: 2rem;
+background-color: #ffe524;
 }
