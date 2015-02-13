@@ -19,6 +19,10 @@ h1, h2, h3{
 h1{
   font-size: 3rem;
 }
+
+h2{
+  border-top: solid 0.2rem #ffe524;
+}
 nav li{
   display: inline-block;
   background-color:#b2a215;
@@ -45,12 +49,9 @@ li:hover{
 background-color:#b32f52;
 }
 a{
-color: white;
+color: #b32f52;
 }
 
-a:hover{
-background-color: #b32f52;
-display: inline-block;
 
 }
 
@@ -71,7 +72,9 @@ font-size: 6rem;
 color: #b2a652;
 text-align: center;
 padding-top: .5rem;
-
+margin: 0;
+padding: 0;
+line-height: 0.7;
 }
 
 figure{
@@ -104,7 +107,15 @@ img{
 width: 100%;
 }
 
-aside{
-padding: 2rem;
-background-color: #ffe524;
+.foot{
+  background-color: #ffe524;
+  padding: 1em 1em 1em 4em;
+}
+
+.wiki {
+  color:red;
+}
+
+.wiki:hover {
+  color: white;
 }
