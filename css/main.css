@@ -1,0 +1,26 @@
+header{
+  background-color: #ffe524;
+  text-align: center;
+  padding: 1em;
+}
+
+h1, h2, h3{
+  font-family: 'Sigmar One', cursive;
+  color: #b32f52;
+}
+
+h1{
+  font-size: 3rem;
+}
+nav li{
+  display: inline-block;
+  background-color:#b2a215;
+  padding: 1em .5em .5em .5em;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
